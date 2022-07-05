@@ -45,7 +45,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
     const { id } = context.params
-    const res = await fetch(`{URL}/api/videos/${id}`)
+    const res = await fetch(`${URL}/api/videos/${id}`)
     const video = await res.json()
     return {
         props: {
