@@ -1,5 +1,4 @@
-1. yarn create next-app
-# or
+1. yarn create next-app or
 pnpm create next-app
 
 npx create-next-app mynextapp --use-npm
